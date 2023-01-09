@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/drive.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<body>
+
+<ul class="ul">
+<li style="float:left;"><a  href="#about"><img src="image/logo.svg"></a></li>
+<li><a href="#news">corporate</a></li>
+<li><a href="daily.php">Daily</a></li>
+<li><a href="travel.php">Travel</a></li>
+<li><a href="#home">About</a></li>
+<li><a href="index.php">Home</a></li>
+
+</ul>
+<div class="wrapper">
+<h1>Not all heroes wear capes.</br>
+Some get behind the wheel
+</h1>
+<p>Join hundreds of drivers (heroes) who save lives while making money from their empty car seats.</p>
+</div>
+<div class="btn">
+                <button>Sign up to be a hero</button>
+            </div>
+            <div class="pon">
+                <h2>What’s in it for you?</h2></br>
+<p>Driving with Treepz has its perks</p>
+            </div>
+            <center><div class="schedule">
+              <div class="schedule col-sm-4 box">
+              <h2>Enjoy a 85:15 profit sharing ratio<br/>
+<span>We only take 15% of your total earnings. Where does the other 85% go? Your pocket!</h2>
+              </div>
+              <div class="schedule col-sm-4 box">
+              <h2>Drive on your own schedule<br/>
+<span>Be your own boss. Drive and make money at your convenience. Daily to work, thrice a week or just Mondays? It’s all up to you BOSS.</h2>
+              </div>
+              <div class="schedule col-sm-4 box">
+              <h2>Make meaningful connections<br/>
+<span>With each drive, there is an opportunity to meet new people. You could strike your next business deal, learn something new from your riders or even meet the love of your life. Who knows?</span></h2>
+              </div>
+
+</div>
+            </div></center>
+<div class="sig">
+    <div class="sign">
+    <h1>Sign up online</h1>
+    </div>
+    <div class="below">
+    <p>Kindly provide all the information requested below.</p>
+</div>
+
+<div class="spa">
+    <span>Please note that all fields are required</span>
+    </div>
+    
+    <div class="spn">
+<div class="col-md-12" style="color: #ababab;">
+By proceeding, I agree to Treepz's <a href ="drive.php" style="text-decoration: none;
+    color: #e59b0c;">term of uses</a> and acknowledge that I have read the <a href ="drive.php" style="text-decoration: none;
+    color: #e59b0c;">Privacy Policy.</a></div></br>
+</div>
+<div class="agree">
+</h4>I also agree that Treepz or its representatives may contact me by email, phone or SMS (including by automated means) at the email address or </br>
+number I provide, including for marketing purposes.</h4>
+</div>
+
+</div>
+</div>   
+</body>
+</html>

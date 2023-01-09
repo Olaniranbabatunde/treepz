@@ -1,0 +1,227 @@
+body {
+  background-image: url(../image/sign.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain !important;
+  background-color: black;
+}
+body .hire {
+  text-align: center;
+}
+body .hire p {
+  color: aliceblue;
+  font-size: 30px;
+  font-size: 48px;
+  width: 100%;
+  padding-bottom: 52px;
+  font-size: 40px;
+}
+body .hire body, body .hire blockquote, body .hire dl, body .hire dd, body .hire h1, body .hire h2, body .hire h3, body .hire h4, body .hire h5, body .hire h6, body .hire hr, body .hire figure, body .hire p, body .hire pre {
+  margin: 0;
+}
+
+.wrapper {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper ul {
+  padding: 20px;
+}
+.wrapper .rapper {
+  background-color: white;
+  width: 60%;
+  border-radius: 10px;
+  height: auto;
+  padding: 20px;
+}
+.wrapper .rapper #ul1 {
+  list-style-type: none;
+}
+.wrapper .rapper #ul1 li {
+  display: inline;
+  margin: 2%;
+}
+.wrapper .rapper #ul1 li img {
+  width: 100px;
+  height: 40px;
+}
+.wrapper .rapper #ul2 {
+  list-style-type: none;
+}
+.wrapper .rapper #ul2 li {
+  display: inline;
+  margin: 2%;
+}
+.wrapper .rapper #ul2 li img {
+  width: 100px;
+  height: 40px;
+}
+.wrapper .rapper #ul3 {
+  list-style-type: none;
+}
+.wrapper .rapper #ul3 li {
+  display: inline;
+  margin: 2%;
+}
+.wrapper .rapper #ul3 li img {
+  width: 100px;
+  height: 40px;
+}
+.wrapper .rapper #ul4 {
+  list-style-type: none;
+}
+.wrapper .rapper #ul4 li {
+  display: inline;
+  margin: 2%;
+}
+.wrapper .rapper #ul4 li img {
+  width: 100px;
+  height: 40px;
+}
+.wrapper .rapper #ul5 {
+  list-style-type: none;
+}
+.wrapper .rapper #ul5 li {
+  display: inline;
+  margin: 4%;
+}
+.wrapper .rapper #ul5 li img {
+  width: 100px;
+  height: 40px;
+}
+.wrapper .rapper p {
+  float: left;
+}
+.wrapper .rapper label {
+  float: left;
+}
+.wrapper .rapper select {
+  width: 100%;
+  min-width: 0px;
+  height: 30px;
+  outline: 2px solid transparent;
+  border-radius: 8px;
+}
+.wrapper .rapper .form-flex {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper .rapper .form-flex label {
+  float: left;
+  display: block;
+  text-align: start;
+  font-size: 14px;
+  -webkit-margin-end: var(--chakra-space-3);
+  margin-inline-end: var(--chakra-space-3);
+  margin-bottom: 5px;
+  font-weight: var(--chakra-fontWeights-medium);
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  opacity: 1;
+}
+.wrapper .rapper .form-flex .input-field {
+  flex: 1;
+  margin: 0.5rem;
+}
+.wrapper .rapper .form-flex .input-field input {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border: 1px solid grey;
+  outline: none;
+  text-indent: 20px;
+}
+
+.input-field3 {
+  display: flex;
+  flex-direction: row;
+}
+.input-field3 label {
+  float: left;
+  display: block;
+  text-align: start;
+  font-size: 14px;
+  -webkit-margin-end: var(--chakra-space-3);
+  margin-inline-end: var(--chakra-space-3);
+  margin-bottom: 5px;
+  font-weight: var(--chakra-fontWeights-medium);
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  opacity: 1;
+}
+.input-field3 .inpute {
+  flex: 1;
+  margin: 0.5rem;
+}
+.input-field3 .inpute input {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border: 1px solid grey;
+  outline: none;
+  text-indent: 20px;
+}
+
+.input-field2 label {
+  float: left;
+  display: block;
+  text-align: start;
+  font-size: 14px;
+  -webkit-margin-end: var(--chakra-space-3);
+  margin-inline-end: var(--chakra-space-3);
+  margin-bottom: 5px;
+  font-weight: var(--chakra-fontWeights-medium);
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  opacity: 1;
+}
+.input-field2 .inputs input {
+  width: 100%;
+  height: 30px;
+  border-radius: 9px;
+  border: 1px solid grey;
+  outline: none;
+  text-indent: 20px;
+}
+
+.inputer .input {
+  float: left;
+}
+.inputer .inputt {
+  float: left;
+}
+
+.btn button {
+  padding: 20px 40px;
+  border: 1px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+.btn button:disabled {
+  padding: 20px 40px;
+  color: white;
+  background-color: grey;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+
+.rapar {
+  padding-top: 30%;
+}
+.rapar p {
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  width: 100%;
+  margin: auto;
+  line-height: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin-bottom: 48px;
+}/*# sourceMappingURL=hirebus.css.map */

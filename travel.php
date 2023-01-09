@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/travel.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<?php include "header.php";?>
+<body>
+    <br><br><br><br><br>
+    <br><br><br>
+    
+        <div class="travel">
+        
+            <div class="travel-item">
+                <p>Find cheap GUO Transport <br/><br> direction bus tickets for your <br/><br>
+
+next road trip. </P>
+<h6>Save time and money by comparing all your bus travel options in one place.</h6>
+<div class="download">
+    <p>Download App</p>
+    <img src="image/appstore.png" alt="">
+    <img src="image/playstore.png" alt="" height="48" width="160">
+
+</div>
+            </div>
+            <div class="travel-item foms">
+<form method="post">
+<p>Where are you heading?</br>
+Find the best bus ticket deals</p>
+<div class="span">
+    <label for="">from</label><br>
+<input type="text" name="form" placeholder="Form (e.g Ajah)">
+
+</div><br>
+<div class="span">
+    <label for="">to</label><br>
+<input type="text" name="form" placeholder="To (e.g Asaba)">
+
+</div><br><br>
+        <div class="flex">
+
+           <div class="flex-item">
+             <label for="">Departure</label>
+                    <input type="date" name="" placeholder="" id="">
+
+           </div>
+           <div class="flex-item">
+             <label for=""> Passengers</label>
+                    <input type="text" name="" placeholder="1 Adults, child(ren)" id="">
+
+           </div>
+        </div> <br><br>
+        <!-- <input type="submit" value="search">
+     -->
+    <button type="submit">search</button>    
+</form>
+</div>
+
+</div>
+
+<div class="wrapme">
+<div class="wrapme-item">
+These popular bus transport companies trust us.
+You should too.
+</div>
+<div class="wrapme-item">
+<img src="image/libmot.png" alt="">
+<img src="image/abc.png" alt="">
+<img src="image/focus.png" alt="">
+<img src="image/GUO.png" alt="">
+<img src="image/efex.png" alt="">
+</div>
+
+</div>
+<div class="routes">
+    <p>Most traveled bus routes</p>
+</div>
+
+<?php
+include("footer.php")
+?> 
+</body>
+</html>

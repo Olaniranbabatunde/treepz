@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sweetalert.js"></script>
+    <style>
+        body{
+  text-align: center;
+  font-size: 14px;
+  background-color: #DBE3E6;
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 6em;
+  color: #252E40;
+  line-height: 2.0em;
+}
+button{
+  background-color: #F16669;
+  border: none;
+  padding: 15px 20px;
+  color: white;
+  font-size: 2em;
+  margin-top: 40px;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover{
+  background-color: darken(#F16669, 30)
+}
+    </style>
+</head>
+<body>
+    <h1>Sweet Alert.js</h1>
+<button onclick="openswal()">Hey, click me!</button>
+
+
+<script>
+
+function openswal(){
+ // swal("Success", "Well done, you pressed a button", "success");
+ swal({
+  title: "Good job!",
+  text: "You clicked the button!",
+  icon: "success",
+  button: "ok",
+});
+}
+</script>
+</body>
+</html>

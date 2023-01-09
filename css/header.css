@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&display=swap");
+header {
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+}
+header img {
+  width: 100%;
+  height: 100px;
+}
+header nav {
+  position: relative;
+  padding-top: 22px;
+  margin-top: -2%;
+  background-color: #000;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li img {
+  max-width: 100%;
+  height: auto;
+  animation: pscaleIn 0.8s ease-in-out both, pulse 3.4s ease-in-out infinite both;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  transform-style: preserve-3d;
+  -webkit-animation: pscaleIn 0.8s ease-in-out both, pulse 3.4s ease-in-out infinite both;
+}
+header nav ul li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 7px 16px;
+  text-decoration: none;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header nav ul li a .active {
+  color: gold;
+}
+header nav ul li select {
+  background-color: black;
+  padding: 10px 15px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 12px;
+}/*# sourceMappingURL=header.css.map */

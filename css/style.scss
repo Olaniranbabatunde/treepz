@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
+
+$font-family: Inter, sans-serif !important;
+$font-famz:blinks;
+$font-weight : bolder;
+$font2: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+body {
+    background-image: url("../image/indexHero.png");
+  }
+  
+  .container {
+    position: relative;
+    margin-top: 20%;
+    /* z-index: -1; */
+  }
+  
+  .hire{
+    text-align: center;
+    h1{
+        line-height: 120%;
+        font-size: 50px;
+        font-weight: $font-weight;
+        font-family: $font-famz;
+        color: white;
+    }
+  }
+  .row {
+    background-color: white;
+    padding: 80px 50px;
+    width: 70%;
+    border-radius: 15px;
+    width: 80%;
+     height: 200px;
+     align-items: center;
+     justify-content: center;
+     vertical-align: middle; 
+     .forma{
+      .busines-btn{
+        padding: 0px;
+        margin: 0;
+        button{
+        padding: 25px;
+        text-align: center;
+       background-color: #f7f7f7;
+       border-color: #f7f7f7;
+       border-radius: none;
+        p{
+
+          font-weight: 200;
+         }
+        }
+      }
+      .cost-effect{
+        p{
+          font-weight: 100;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          padding-right: 30px;
+        }
+      }   
+     }
+     form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        input {
+            width: 100%;
+            min-width: 0px;
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            position: relative;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            transition-property: var(--chakra-transition-property-common);
+            transition-duration: var(--chakra-transition-duration-normal);
+            font-size: var(--chakra-fontSizes-md);
+            -webkit-padding-start: var(--chakra-space-4);
+            padding-inline-start: var(--chakra-space-4);
+            -webkit-padding-end: var(--chakra-space-4);
+            padding-inline-end: var(--chakra-space-4);
+            height: 40px;
+            border-radius: var(--chakra-radii-md);
+            border: var(--chakra-borders-none);
+            border-color: inherit;
+            background: #fff;
+            padding: 0px;
+            background-color: #f7f7f7;
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            font-weight: bolder;
+          }
+        .inputa {
+            flex: calc(25% - 40px);
+            background-color: #f7f7f7;
+            padding: 1rem;
+            margin: 0.75rem;
+            
+              }
+            }
+          }
+  .formb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20px;
+    
+    .inputb1{
+        flex: 2;
+        padding: 50px;
+        margin: 0.75rem;
+        height: 75px;
+      width: 100%;
+       
+      }
+      .inputb:first-child {
+          flex: 4;
+        
+          padding: 0.1rem;
+          margin: 0.75rem;
+          height: 75px;
+      width: 100%;
+  margin: 1%;
+  font-size: 25px;
+  color: #000000;
+        }
+  }
+  .total{
+    background-color:#E2E8F0 ;//#d1e0e0;
+    font-size: large;
+    margin-top: 80px;
+    p{
+      font-size: 40px;
+      text-align: center;
+      padding: 10px;
+
+    }
+    
+  }
+   .solution{
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-top: -40px;
+    h1{
+      font-size: 48px;
+      padding: 96px 0px 112px;
+    width: 68%;
+    max-width: 2000px;
+    margin: 0px auto;
+}
+      
+    }
+    .car-dream{
+          display: flex;
+      .people-move{
+          float: left;
+          font-weight: 600;
+      font-size: 18px;
+      padding: 0;
+      margin: 0;
+        }
+      }
+  .people-move{
+    float: left;
+    font-weight: 600;
+font-size: 18px;
+padding: 0;
+margin: 0;
+  
+.img{
+    display: flex;
+  }
+}
