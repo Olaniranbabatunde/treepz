@@ -14,7 +14,14 @@
 </body>
 </html>
 <body>
-
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#news">corporate</a>
+        <a href="daily.html">Daily</a>
+        <a href="travel.html">Travel</a>
+        <a href="#home">About</a>
+        <a href="index.html">Home</a>
+      </div>
 <ul class="ul">
 <li style="float:left;"><a  href="#about"><img src="image/logo.svg"></a></li>
 <li><a href="#news">corporate</a></li>
@@ -22,6 +29,7 @@
 <li><a href="travel.html">Travel</a></li>
 <li><a href="#home">About</a></li>
 <li><a href="index.html">Home</a></li>
+<span class="openNav" style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
 
 </ul>
 <div class="wrapper">
@@ -79,4 +87,13 @@ number I provide, including for marketing purposes.</h4>
 </div>
 </div>   
 </body>
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
 </html>
